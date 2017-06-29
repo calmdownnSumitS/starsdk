@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HCSStarRatingView.h"
+
 
 @interface ViewController : UIViewController
 

@@ -15,6 +15,7 @@
 		1B5747641F04D30C00677B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5747621F04D30C00677B20 /* LaunchScreen.storyboard */; };
 		1B57476F1F04D30C00677B20 /* startratingwithhcsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B57476E1F04D30C00677B20 /* startratingwithhcsTests.m */; };
 		1B57477A1F04D30C00677B20 /* startratingwithhcsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5747791F04D30C00677B20 /* startratingwithhcsUITests.m */; };
+		1B5747891F04D83900677B20 /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5747881F04D83900677B20 /* HCSStarRatingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1B5747751F04D30C00677B20 /* startratingwithhcsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = startratingwithhcsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5747791F04D30C00677B20 /* startratingwithhcsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = startratingwithhcsUITests.m; sourceTree = "<group>"; };
 		1B57477B1F04D30C00677B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5747871F04D83900677B20 /* HCSStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSStarRatingView.h; sourceTree = "<group>"; };
+		1B5747881F04D83900677B20 /* HCSStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSStarRatingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		1B5747531F04D30C00677B20 /* startratingwithhcs */ = {
 			isa = PBXGroup;
 			children = (
+				1B5747871F04D83900677B20 /* HCSStarRatingView.h */,
+				1B5747881F04D83900677B20 /* HCSStarRatingView.m */,
 				1B5747571F04D30C00677B20 /* AppDelegate.h */,
 				1B5747581F04D30C00677B20 /* AppDelegate.m */,
 				1B57475A1F04D30C00677B20 /* ViewController.h */,
@@ -275,6 +280,7 @@
 			files = (
 				1B57475C1F04D30C00677B20 /* ViewController.m in Sources */,
 				1B5747591F04D30C00677B20 /* AppDelegate.m in Sources */,
+				1B5747891F04D83900677B20 /* HCSStarRatingView.m in Sources */,
 				1B5747561F04D30C00677B20 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
